@@ -33,7 +33,6 @@ public class demo1 {
             int[] ints=new int[]{1,2,3};
             String s1=JSonEval.getInstance().toJson(ints);
             System.out.println(s1);
-            //根据jsonArray转成
 
         }catch (Exception e){
             e.printStackTrace();
